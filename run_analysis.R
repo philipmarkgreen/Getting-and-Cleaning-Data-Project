@@ -5,8 +5,8 @@
 # http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 # Download  the data file and unzip it
-# download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","dataset.zip")
-# unzip("dataset.zip")
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","dataset.zip")
+unzip("dataset.zip")
 
 # Load tidyr and dplyr, we are going to want these
 library(plyr)
