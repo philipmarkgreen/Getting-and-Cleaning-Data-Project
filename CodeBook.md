@@ -5,18 +5,16 @@ date: "Sunday, May 24, 2015"
 output: html_document
 ---
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This code book describes the manipulations to the data and the resultant data set.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Merging the training and the test sets to create one data set
 
-```{r}
-summary(cars)
-```
+The training and test data sets have the same number of variables for each of the three data sets given, namely the subject, actvity type and actual measurement datasets. For this reason we are able to simply use rbind to combine the respective data sets.
+ 
+## Extracting only the measurements on the mean and standard deviation for each measurement
 
-You can also embed plots, for example:
+## Using descriptive activity names to name the activities in the data set
 
-```{r, echo=FALSE}
-plot(cars)
-```
+## Appropriately labels the data set with descriptive variable names
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Creating second, independent tidy data set with the average of each variable for each activity and each subject
